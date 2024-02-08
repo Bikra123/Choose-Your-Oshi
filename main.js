@@ -98,6 +98,13 @@ function changeMember(index){
     paragraph.appendChild(newParagraph)
 }
 
+function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
 function freya(){
     changeMember(1)
     currentIndex = 1
@@ -150,4 +157,14 @@ btn7.addEventListener('click',muthe)
 btn8.addEventListener('click',michie)
 btn9.addEventListener('click',gracia)
 btn10.addEventListener('click',ella)
+
+btn1.addEventListener('click',scrollToTop)
+btn2.addEventListener('click',scrollToTop)
+btn3.addEventListener('click',scrollToTop)
+btn4.addEventListener('click',scrollToTop)
+btn5.addEventListener('click',scrollToTop)
+btn6.addEventListener('click',scrollToTop)
+btn8.addEventListener('click',scrollToTop)
+btn9.addEventListener('click',scrollToTop)
+btn10.addEventListener('click',scrollToTop)
 
